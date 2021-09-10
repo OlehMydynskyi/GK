@@ -1,0 +1,15 @@
+C:\Users\wwwme\source\repos\GC\GC\bin\Debug\GC.exe.config
+C:\Users\wwwme\source\repos\GC\GC\bin\Debug\GC.exe
+C:\Users\wwwme\source\repos\GC\GC\bin\Debug\GC.pdb
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.csprojAssemblyReference.cache
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\MainWindow.g.cs
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\App.g.cs
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC_MarkupCompile.cache
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC_MarkupCompile.lref
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\MainWindow.baml
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.g.resources
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.Properties.Resources.resources
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.csproj.GenerateResource.cache
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.csproj.CoreCompileInputs.cache
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.exe
+C:\Users\wwwme\source\repos\GC\GC\obj\Debug\GC.pdb

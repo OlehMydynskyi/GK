@@ -1,0 +1,33 @@
+﻿<Window x:Class="GC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GC"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFCDCDCD">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="BaseDamageField" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="113,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" BorderBrush="Black" FontSize="16" TextAlignment="Center" Text="0"/>
+        <Label Grid.ColumnSpan="2" Content="Base damage" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Grid.ColumnSpan="2" Content="%" HorizontalAlignment="Left" Margin="172,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,1.055" FontSize="16"/>
+        <Label Grid.ColumnSpan="2" Content="Puncture damage" HorizontalAlignment="Left" Margin="221,23,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="PunctureDamageField" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="360,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" BorderBrush="Black" FontSize="16" TextAlignment="Center" Text="0"/>
+        <Label Grid.ColumnSpan="2" Content="%" HorizontalAlignment="Left" Margin="419,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,1.055" FontSize="16"/>
+        <Label Grid.ColumnSpan="2" Content="Power" HorizontalAlignment="Left" Margin="446,23,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="PowerField" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="504,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" BorderBrush="Black" FontSize="16" TextAlignment="Center" Text="100"/>
+        <Label Grid.ColumnSpan="2" Content="%" HorizontalAlignment="Left" Margin="563,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,1.055" FontSize="16"/>
+        <Label x:Name="GlassCounter" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="524,187,0,0" VerticalAlignment="Top" Height="75" Width="237" FontSize="48" Background="White"/>
+        <Button x:Name="PressButton"  Grid.ColumnSpan="2" Content="Press" HorizontalAlignment="Left" Margin="524,275,0,0" VerticalAlignment="Top" Width="105" Height="43" FontSize="24"/>
+        <Button x:Name="HoldButton"  Grid.ColumnSpan="2" Content="Hold" HorizontalAlignment="Left" Margin="656,275,0,0" VerticalAlignment="Top" Width="105" Height="43" FontSize="24"/>
+        <Label Grid.ColumnSpan="2" Content="Slash damage" HorizontalAlignment="Left" Margin="221,55,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="SlashDamageField" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="360,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" BorderBrush="Black" FontSize="16" TextAlignment="Center" Text="0"/>
+        <Label Grid.ColumnSpan="2" Content="%" HorizontalAlignment="Left" Margin="419,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,1.055" FontSize="16"/>
+        <Label Grid.ColumnSpan="2" Content="Another damage" HorizontalAlignment="Left" Margin="221,87,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="AnotherDamageField" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="360,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" BorderBrush="Black" FontSize="16" TextAlignment="Center" Text="0"/>
+        <Label Grid.ColumnSpan="2" Content="%" HorizontalAlignment="Left" Margin="419,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.406,1.055" FontSize="16"/>
+    </Grid>
+</Window>
